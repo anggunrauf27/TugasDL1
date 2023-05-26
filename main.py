@@ -8,8 +8,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.applications.vgg16 import VGG16
 
 # Mendefinisikan direktori dataset training dan testing
-train_dir = '/Users/uusaamaa_/PycharmProjects/TugasDL1/Training'
-test_dir = '/Users/uusaamaa_/PycharmProjects/TugasDL1/Testing'
+train_dir = '/Users/M S I/PycharmProjects/TugasDL1/Training'
+test_dir = '/Users/M S I/PycharmProjects/TugasDL1/Testing'
 
 # Preprocessing dan augmentasi data training
 train_datagen = ImageDataGenerator(
